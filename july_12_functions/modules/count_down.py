@@ -3,8 +3,9 @@
 def countDown(n):
     if(n<0):
         print("Please provide positive integer")
+        return
     for i in range(n, -1, -1):
-        print("count down: ", i)
+        print(f"Count down: {i}")
 
 if __name__ == "__main__":
     n = int(input("Enter a positive integer for count down: "))
