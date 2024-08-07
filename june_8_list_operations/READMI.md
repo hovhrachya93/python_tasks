@@ -24,4 +24,4 @@ To run individual tasks directly, navigate to the modules directory and execute 
 
 ```bash
 cd modules
-python file_name.py
+python <<File name>>.py
